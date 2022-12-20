@@ -45,7 +45,19 @@
   font-weight: bold;
   cursor: pointer;
 }
-
+.location-date {
+  font-weight: bold;
+}
 .my-events h2 {
   font-size: 30px;
+}
+.event-list {
+  border: 1px solid #e4e4e4;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  list-style-type: none;
+  margin: 18px 0;
 }

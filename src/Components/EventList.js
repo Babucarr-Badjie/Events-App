@@ -4,9 +4,10 @@ export default function EventList({ events, handleClickEvent }) {
   return (
     <div className="my-events">
       {events.map((event) => (
-        <div>
+        <div className="event-list">
           <h2>{event.eventTitle}</h2>
-          <p>
+
+          <p className="location-date">
             {event.eventLocation.toUpperCase()} - {event.eventDate}
           </p>
           <button
