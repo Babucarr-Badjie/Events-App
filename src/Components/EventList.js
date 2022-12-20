@@ -1,10 +1,21 @@
 import React from "react";
 
-export default function EventList({ events }) {
+export default function EventList({ events, handleClickEvent }) {
   return (
-    <div>
+    <div className="my-events">
       {events.map((event) => (
-        <h2>{event.eventTitle}</h2>
+        <div>
+          <h2>{event.eventTitle}</h2>
+          <p>
+            {event.eventLocation.toUpperCase()} - {event.eventDate}
+          </p>
+          <button
+            className="delete-btn"
+            onClick={() => handleClickEvent(event.id)}
+          >
+            Delete Event
+          </button>
+        </div>
       ))}
     </div>
   );

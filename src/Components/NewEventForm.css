@@ -1,0 +1,32 @@
+.new-event-form label,
+.new-event-form input {
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  border-radius: 0.9rem;
+  
+}
+.submit-btn {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.9rem;
+  border-color: #d4ebeb;
+  background-color: #cacaeb;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.submit-btn:hover {
+  color: #fff;
+  background-color: #000;
+  font-weight: bold;
+}
+select {
+  padding: 0.5rem;
+  width: 100%;
+  font-size: 1rem;
+}
